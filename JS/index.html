@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+
+    <nav>
+        <img id="btn-icon" src="../images/calculadora.png" alt="Botão de imagem">
+    </nav>
+
+    <section class="informations">
+        <div class="title-informations">
+            <h1>Calculadora online/Online calculator</h1>
+            <p>Calculadora feita com html, css e JavaScript apenas, com o intuito de treinar técnicas em JS. Espero que
+                gostem!
+                <br>Calculator made with html, css and JavaScript only, in order to train techniques in JS. Hope you
+                like it!
+            </p>
+        </div>
+        <div class="display-calculator">
+            <div class="calculator">
+                <div class="display-closed">
+                    <div class="without-content"></div>
+                    <div class="with-content">
+                        <p id="btn-closed" class="closed">X</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div id="btn-historic" class="historic">
+                    <div id="btn-historic" class="with-btn-historic"><p>Histórico</p></div>
+                    <div class="withou-btn-historic"></div>
+                </div>
+                <div id="btn-result" class="result">
+                    <p id="display-result">0</p>
+                </div>
+                <div id="btn-1" class="display-1">%</div>
+                <div id="btn-destructor" class="display-1">C</div>
+                <div id="btn-delete" class="display-1"><-</div>
+                        <div id="btn-4" class="display-1">/</div>
+                        <div id="btn-5" class="display-2">7</div>
+                        <div id="btn-6" class="display-2">8</div>
+                        <div id="btn-7" class="display-2">9</div>
+                        <div id="btn-8" class="display-1">X</div>
+                        <div id="btn-9" class="display-2">4</div>
+                        <div id="btn-10" class="display-2">5</div>
+                        <div id="btn-11" class="display-2">6</div>
+                        <div id="btn-12" class="display-1">-</div>
+                        <div id="btn-13" class="display-2">1</div>
+                        <div id="btn-14" class="display-2">2</div>
+                        <div id="btn-15" class="display-2">3</div>
+                        <div id="btn-16" class="display-1">+</div>
+                        <div id="btn-more-or-less" class="display-2">+/-</div>
+                        <div id="btn-18" class="display-2">0</div>
+                        <div id="btn-19" class="display-2">,</div>
+                        <div id="btn-equal" class="display-3">=</div>
+            </div>
+            <div class="informations-calculator">
+                <p>Clique na calculadora ao lado para abrir a calculadora ou aperte o botão abaixo!</p>
+                <button id="btn-informations">Abrir calculadora</button>
+            </div>
+        </div>
+    </section><!--informations-->
+
+    <script src="../JS/jQuery/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="../JS/Math/cdnjs.cloudflare.com_ajax_libs_mathjs_10.5.2_math.min.js"></script>
+    <script src="functions.js"></script>
+
+</body>
+
+</html>
